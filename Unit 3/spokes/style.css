@@ -1,0 +1,73 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+
+
+h1 { 
+	color: white;
+	font-weight: normal;
+	font-size: 60px;
+	font-family: Helvetica;
+
+}
+
+ul,li {
+	color: white;
+ 	font-size: 24px;
+ 	font-family: Helvetica;
+ 	list-style-type: none;
+}
+
+p {
+	color: white;
+	font-size: 24px;
+	font-family: Helvetica;
+
+}
+
+
+#header {
+
+    color:white;
+    text-align:center;
+}
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -5000;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+#slogan {
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 125px;
+
+}
+
+#contact {
+text-align: center;
+margin-top: 200px;
+font-size: 18px;
+
+}
+
