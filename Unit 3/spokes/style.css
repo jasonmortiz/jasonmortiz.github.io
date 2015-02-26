@@ -26,33 +26,11 @@ p {
 
 }
 
-
-#header {
-
-    color:white;
-    text-align:center;
+#title_bg {
+	background-image: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg");
+	width: 100%;
+	height: 800px;
 }
-
-
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -5000;
-}
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
-
 
 #slogan {
 	color: white;
