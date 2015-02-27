@@ -3,7 +3,7 @@ body {
 	text-align: center;
 }
 
-
+/*
 h1 { 
 	color: white;
 	font-weight: normal;
@@ -11,7 +11,7 @@ h1 {
 	font-family: Helvetica;
 
 }
-
+*/
 ul,li {
 	color: white;
  	font-size: 24px;
@@ -23,6 +23,7 @@ p {
 	color: white;
 	font-size: 24px;
 	font-family: Helvetica;
+	margin:100px;
 
 }
 
@@ -31,6 +32,12 @@ p {
 	width: 100%;
 	height: 800px;
 }
+
+#header {
+	color: white;
+	font-weight: normal;
+	font-size: 60px;
+	font-family: 'Source Sans Pro', sans-serif;
 
 #slogan {
 	color: white;
@@ -43,9 +50,10 @@ p {
 }
 
 #contact {
-text-align: center;
-margin-top: 200px;
-font-size: 18px;
+	color:#000000;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
 
 }
 
