@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+
+/*
+h1 { 
+	color: white;
+	font-weight: normal;
+	font-size: 60px;
+	font-family: Helvetica;
+
+}
+*/
+ul,li {
+	color: white;
+ 	font-size: 24px;
+ 	font-family: Helvetica;
+ 	list-style-type: none;
+}
+
+p {
+	color: white;
+	font-size: 24px;
+	font-family: Helvetica;
+	margin:100px;
+
+}
+
+#title_bg {
+	background-image: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg");
+	width: 100%;
+	height: 800px;
+}
+
+#header {
+	color: white;
+	font-weight: normal;
+	font-size: 60px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+#slogan {
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 125px;
+
+}
+
+#contact {
+	color:#000000;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+
+}
+
