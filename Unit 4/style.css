@@ -1,7 +1,8 @@
 body {
-	background-color: white;
 	text-align: center;
 }
+
+
 
 /*
 h1 { 
@@ -28,9 +29,11 @@ p {
 }
 
 #title_bg {
-	background-image: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg");
-	width: 100%;
-	height: 800px;
+  background: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #header {
@@ -38,6 +41,7 @@ p {
 	font-weight: normal;
 	font-size: 60px;
 	font-family: 'Source Sans Pro', sans-serif;
+}
 
 #slogan {
 	color: white;
