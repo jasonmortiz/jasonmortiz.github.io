@@ -1,46 +1,35 @@
 body {
+	background-color: white;
 	text-align: center;
+	margin: 0;
+	background-image: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg");
+	background-size: cover;
+	background-position: center top;
 }
 
 
-
-/*
-h1 { 
-	color: white;
-	font-weight: normal;
-	font-size: 60px;
-	font-family: Helvetica;
-
-}
-*/
 ul,li {
 	color: white;
  	font-size: 24px;
  	font-family: Helvetica;
  	list-style-type: none;
+ 	line-height: 50px;
 }
 
 p {
 	color: white;
 	font-size: 24px;
 	font-family: Helvetica;
-	margin:100px;
 
 }
 
-#title_bg {
-  background: url("http://ortizfoto.smugmug.com/Spokes/i-4GkBg62/0/X2/thesultan-X2.jpg")no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 #header {
 	color: white;
 	font-weight: normal;
 	font-size: 60px;
 	font-family: 'Source Sans Pro', sans-serif;
+	overflow: auto;
 }
 
 #slogan {
@@ -48,8 +37,8 @@ p {
 	text-align: center;
 	font-family: Helvetica;
 	font-style: italic;
-	font-size: 20px;
-	margin-bottom: 125px;
+	font-size: 40px;
+	margin-bottom: 280px;
 
 }
 
