@@ -28,20 +28,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -104,7 +110,7 @@ li a:hover, li a:active {
 }
 
 h1{
-	font-size: 50px;
+	font-size: 4em;
 	padding-bottom: 10px;
 	letter-spacing: 5px;
 }
@@ -120,9 +126,6 @@ article {
 	padding: 8em;
 	overflow: hidden;
 
-	
-
-
 }
 
 p{
@@ -133,11 +136,7 @@ p{
 	padding-right: 10em;
 	padding-left: 10em;
 	width:100%;
-
-
 }
-
-
 
 footer a {
 	display: block;
@@ -152,19 +151,15 @@ footer a {
 	font-weight: 700;
 }
 
-#article2{
+#gallery{
 
-	width:100%;
+	background: url(http://ortizfoto.smugmug.com/photos/i-2XBWWnr/0/O/i-2XBWWnr.jpg);
 	height: 50em;
 	margin-top: 2%;
-	color: black;
-	text-align: center;
-	padding: 8em;
-	overflow: hidden;
+	background-size: 100%;
+    background-repeat: no-repeat;
 
 }
-
-
 
 
 #logo img {
@@ -175,41 +170,52 @@ footer a {
 	max-width: 100%
 }
 
+
 #copyright {
 	text-align: center;
 }
 
-@media (max-width: 1200px) {
-  .row h2 span:after { content: ',TOTALLY!' 
-	}
-}
 
-@media (max-width: 768px){
+
+
+@media only screen and (max-width: 768px){
 	p {
 		font-size: 12px;
+        width:100%;
 
 	}
 
 }
+
+
+@media only screen and (max-width: 900px) {
+    #gallery {
+    	  	max-width: 100%;
+			height: 250px;
+    }
+}
+
+
 @media only screen and (max-width: 900px) {
     #headerimage {
     	  	max-width: 100%;
-			height: 200px;
+			height: 250px;
     }
 }
 
 
 @media screen and (max-width: 900px) {
-     nav ul li { 
-          display: block; 
-     }
-     nav ul { 
-          text-align: center; 
-     }
- }
 
-     @media (max-width: 1200px) {
-  		.row h2 span:after { content: ',TOTALLY!' 
+     nav ul li { 
+          display: block;
+          width:100%;
+      }
+  }
+		 
+
+@media (max-width: 1200px) {
+   h2 span:after { content: ',TOTALLY!' 
 	}
 }
  
+
