@@ -96,10 +96,10 @@ li a:hover, li a:active {
 	color:#000;
 }
 
-header{
+#headerimage{
 	background: url(https://github.com/jasonmortiz/jasonmortiz.github.io/blob/master/Unit%205/Images/web%20pic.jpg?raw=true);
 	background-size: cover;
-	height: 400px;
+	height: 25em;
 	max-width: 100%
 }
 
@@ -191,14 +191,25 @@ footer a {
 	}
 
 }
-
-
-@media (max-width: 400px){
-	header {
-		max-width: 100%;
-
-	}
-
+@media only screen and (max-width: 900px) {
+    #headerimage {
+    	  	max-width: 100%;
+			height: 200px;
+    }
 }
 
 
+@media screen and (max-width: 900px) {
+     nav ul li { 
+          display: block; 
+     }
+     nav ul { 
+          text-align: center; 
+     }
+ }
+
+     @media (max-width: 1200px) {
+  		.row h2 span:after { content: ',TOTALLY!' 
+	}
+}
+ 
