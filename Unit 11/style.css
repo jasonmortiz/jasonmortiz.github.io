@@ -20,6 +20,18 @@ section{
 
 }
 
+footer{
+	color:#ffffff;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #000000;
+	width;100%;
+	margin-top: 2em;
+	margin-left: 10em;
+	margin-right: 10em;
+	height: 10em;
+}
+
 .clear{
 
       clear: both;
@@ -31,9 +43,13 @@ section{
 	margin-left: 10em;
 	margin-right: 10em;
 	background: #ffffff;
-    display: table
+    display: table;
     height: 100%;
-    position: relative;
+}
+
+#scroll{
+	color:ffffff;
+	height:2em;
 }
 
 #logo{
@@ -48,7 +64,7 @@ section{
  #header{
 
 	background: url(http://ortizfoto.smugmug.com/photos/i-Gp5KC7W/0/X3/i-Gp5KC7W-X3.jpg);
-	background-size: 100%; background-repeat: no-repeat;	
+	background-size: 100%; background-repeat: no-repeat;
 	height: 800px;
 	margin: 5em 10em 2em 10em;
 }
