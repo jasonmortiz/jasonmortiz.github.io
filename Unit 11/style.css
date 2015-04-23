@@ -1,8 +1,10 @@
 body {
+	font-family: sans-serif;
 	
 }
 
 p{
+	max-width: 100%;
 	color:#ffffff;
 	font-family: sans-serif;
 	margin-left: 5px;
@@ -10,6 +12,8 @@ p{
 }
 
 section{
+
+	max-width: 100%;
 	background-color: #000000;
 	height: 15em;
 	margin-left: 10em;
@@ -22,26 +26,46 @@ section{
 	padding: 20px;
 }
 
-#left
-    {
-      width: 200px;
-      float: left;
-    }
-
-    #right
-    {
-      margin-left: 200px; /* Change this to whatever the width of your left column is*/
-    }
-
-    .clear
+ .clear
     {
       clear: both;
     }
+
+#container {
+    background: #ffffff;
+    display: table
+}
+#left, #right {
+
+    
+    display: inline-table;
+    height: 800px;
+
+
+
+}
+#left {
+    width: 648px;
+    background: #000000;
+    float; left;
+    color:#ffffff;
+    margin-left: 10em;
+    
+    
+   
+}
+#right {
+	width: 648px;
+    background: #ccff66;
+    float; right;
+    margin-left: 2em;
+
+}
 
 #header{
 
 	background: url(http://ortizfoto.smugmug.com/photos/i-Gp5KC7W/0/X3/i-Gp5KC7W-X3.jpg);
 	background-size: 100%; background-repeat: no-repeat;	
 	height: 900px;
-	margin: 5em 10em 5em 10em;
+	margin: 5em 10em 1em 10em;
 
