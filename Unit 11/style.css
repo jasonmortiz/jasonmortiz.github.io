@@ -25,6 +25,17 @@ section{
       clear: both;
  }
 
+ .container {
+
+	width: 100%;
+	margin-left: 10em;
+	margin-right: 10em;
+	background: #ffffff;
+    display: table
+    height: 100%;
+    position: relative;
+}
+
 #logo{
 
 	float: left;
@@ -42,16 +53,7 @@ section{
 	margin: 5em 10em 2em 10em;
 }
 
-#container {
 
-	width: 100%;
-	margin-left: 10em;
-	margin-right: 10em;
-	background: #ffffff;
-    display: table
-    height: 100%;
-    position: relative;
-}
 
 #left, #right {
 
@@ -74,8 +76,37 @@ section{
 #right {
 
 	width: 40%;
-    background: #ccff66;
+    background: #ff0000;
     float; right;
+    margin-left: 1em;
+
+}
+
+#bottomleft, #bottomright {
+
+    display: inline-table;
+    height: 30em;
+    
+}
+
+#bottomleft {
+
+    width: 40%;
+    background: #000000;
+    float; left;
+    color:#ffffff;
+    margin-top: 2em;
+    margin-right: 1em;
+    
+
+}
+
+#bottomright {
+
+	width: 40%;
+    background: #ff0000;
+    float; right;
+    margin-top: 2em;
     margin-left: 1em;
 
 }
