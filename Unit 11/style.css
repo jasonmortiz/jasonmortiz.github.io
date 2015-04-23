@@ -20,52 +20,62 @@ section{
 
 }
 
-.logo{
+.clear{
+
+      clear: both;
+ }
+
+#logo{
+
 	float: left;
 	max-width: 100%;
 	padding: 20px;
 }
 
- .clear
-    {
-      clear: both;
-    }
-
-#container {
-    background: #ffffff;
-    display: table
-}
-#left, #right {
-
-    
-    display: inline-table;
-    height: 800px;
 
 
-
-}
-#left {
-    width: 648px;
-    background: #000000;
-    float; left;
-    color:#ffffff;
-    margin-left: 10em;
-    
-    
-   
-}
-#right {
-	width: 648px;
-    background: #ccff66;
-    float; right;
-    margin-left: 2em;
-
-}
-
-#header{
+ #header{
 
 	background: url(http://ortizfoto.smugmug.com/photos/i-Gp5KC7W/0/X3/i-Gp5KC7W-X3.jpg);
 	background-size: 100%; background-repeat: no-repeat;	
-	height: 900px;
-	margin: 5em 10em 1em 10em;
+	height: 800px;
+	margin: 5em 10em 2em 10em;
+}
 
+#container {
+
+	width: 100%;
+	margin-left: 10em;
+	margin-right: 10em;
+	background: #ffffff;
+    display: table
+    height: 100%;
+    position: relative;
+}
+
+#left, #right {
+
+    display: inline-table;
+    height: 30em;
+    
+}
+
+#left {
+
+    width: 40%;
+    background: #000000;
+    float; left;
+    color:#ffffff;
+    margin-right: 1em;
+    
+
+}
+
+#right {
+
+	width: 40%;
+    background: #ccff66;
+    float; right;
+    margin-left: 1em;
+
+}
