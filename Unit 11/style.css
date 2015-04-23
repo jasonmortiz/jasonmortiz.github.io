@@ -92,7 +92,7 @@ section{
 #bottomleft {
 
     width: 40%;
-    background: #000000;
+    background: #ff0000;
     float; left;
     color:#ffffff;
     margin-top: 2em;
@@ -104,7 +104,7 @@ section{
 #bottomright {
 
 	width: 40%;
-    background: #ff0000;
+    background: #000000;
     float; right;
     margin-top: 2em;
     margin-left: 1em;
