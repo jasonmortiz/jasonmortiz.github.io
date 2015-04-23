@@ -32,10 +32,13 @@ footer{
 	height: 10em;
 }
 
-.clear{
-
-      clear: both;
- }
+.clearfix:after {
+  visibility: hidden;
+  display: inline-block;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 
  .container {
 
@@ -44,8 +47,8 @@ footer{
 	margin-right: 10em;
 	background: #ffffff;
     display: table;
-    height: 100%;
 }
+
 
 #scroll{
 	color:ffffff;
@@ -74,25 +77,31 @@ footer{
 #left, #right {
 
     display: inline-table;
-    height: 30em;
-    
+    height: 30em;    
+}
+
+#menu{
+	float: left;
+	max-width: 100%;
+	margin: 8em 5em 5em 12em;
 }
 
 #left {
 
     width: 40%;
-    background: #000000;
+    background-color: #000;
     float; left;
     color:#ffffff;
     margin-right: 1em;
     
-
 }
+
 
 #right {
 
 	width: 40%;
     background: #ff0000;
+    clear: both;
     float; right;
     margin-left: 1em;
 
