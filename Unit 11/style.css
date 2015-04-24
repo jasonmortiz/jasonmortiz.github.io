@@ -21,6 +21,7 @@ section{
 
 }
 
+
 footer{
 	color:#ffffff;
 	text-align: center;
@@ -33,28 +34,26 @@ footer{
 	height: 10em;
 }
 
+
 .clearfix:after {
   visibility: hidden;
-  display: inline-block;
   content: " ";
   clear: both;
   height: 0;
 }
 
  .container {
-
-	width: 100%;
+ 	display: flex;
+	left:0;
+	right:0;
+	bottom: 0;
+	position: relative;
 	margin-left: 10em;
 	margin-right: 10em;
 	background: #ffffff;
-    display: table;
+	
 }
 
-
-#scroll{
-	color:ffffff;
-	height:2em;
-}
 
 #logo{
 
@@ -74,71 +73,48 @@ footer{
 }
 
 
-
-#left, #right {
-
-    display: inline-table;
-    height: 30em;    
-}
-
-#menu{
-	float: left;
-	max-width: 100%;
+#menu img{
+	
 	margin: 8em 5em 5em 12em;
 }
 
-#left {
+#left, #photos {
 
-    width: 40%;
-    background-color: #000;
-    float; left;
-    color:#ffffff;
-    margin-right: 1em;
+    display: inline-block;
+    height: 30em;
     
 }
 
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+#left{
+
+    width: 49%;
+    background-color: #000;
+	color:#ffffff;
+    
+    
 }
 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: right; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0 auto;
-  left: 0;
-  animation: 30s slidy infinite; 
+#photos {
+
+	width: 49%;
+    margin-left: 2em;
+
 }
 
-#right {
-
-	width: 40%;
-    background: #ff0000;
-    clear: both;
-    float; right;
-    margin-left: 1em;
-
+#photos img {
+	width: 100%;
 }
 
 #bottomleft, #bottomright {
 
-    display: inline-table;
+    display: inline-block;
     height: 30em;
     
 }
 
 #bottomleft {
 
-    width: 40%;
+    width: 49%;
     background: #ff0000;
     float; left;
     color:#ffffff;
@@ -151,7 +127,7 @@ div#slider figure {
 #bottomright {
 
 	color: #ffffff;
-	width: 40%;
+	width: 49%;
     background: #000000;
     float; right;
     margin-top: 2em;
